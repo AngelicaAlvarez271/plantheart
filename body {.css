@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f9f1;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.logo {
+    height: 50px;
+    max-width: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav li {
+    margin-left: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+nav a:hover {
+    color: #388E3C;
+}
+
+main {
+    padding-top: 70px;
+}
+
+#home {
+    background-image: url('plantas-pequenas.jpg'); /* Asegúrate de tener esta imagen en la carpeta correcta */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+h1 {
+    color: #4CAF50;
+}
+
+#services {
+    background-color: #e8f5e9;
+    padding: 40px 20px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+}
+
+.service h3 {
+    color: #4CAF50;
+}
+
+.service-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}

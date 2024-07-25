@@ -1,0 +1,139 @@
+/* Estilos comunes para todas las páginas */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f9f1;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.logo {
+    height: 50px;
+    max-width: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav li {
+    margin-left: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+nav a:hover {
+    color: #388E3C;
+}
+
+main {
+    padding-top: 70px;
+    flex: 1;
+    width: 100%;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Estilos específicos para la página de Servicios */
+#services {
+    background-image: url('plantas_0.jpeg'); /* Asegúrate de tener esta imagen en la carpeta correcta */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px 20px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+#services h1 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.service-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: calc(33% - 40px); /* Ajusta el ancho de los contenedores */
+}
+
+.service-item img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.service-item h2 {
+    color: #4CAF50;
+    margin: 10px 0;
+}
+
+.service-item p {
+    color: #333;
+    font-weight: bold;
+}
+
+.service-item ul {
+    list-style-type: none;
+    padding: 0;
+    color: #333;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.service-item li {
+    margin-bottom: 5px;
+}
